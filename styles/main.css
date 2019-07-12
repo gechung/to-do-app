@@ -1,0 +1,38 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: hotpink;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 50px;
+}
+
+#addToDoForm, #toDoList {
+  font-family: Georgia, serif;
+  color: #000;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  line-height: 1.2cm;
+}
+
+body {
+  border-style: dashed;
+  border-width: 10px;
+  border-color: black;
+  max-width: 900px;
+}
+
+@media screen and (min-width: 575px) {
+   body {
+    margin: 5% auto;
+    text-align: left;
+    width: 100%;
+  }
+
+@media screen and (min-width: 991px) {
+  body {
+   margin: 5% auto;
+   text-align: left;
+   width: 100%;
+  }
